@@ -1,5 +1,5 @@
 # Ex08 Event Registration Web Application
-## Date:19/12/2025
+## Date:20/12/2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration using Figma UI tool.
@@ -35,7 +35,7 @@ Select the specific frame while generating code using Anima plugin.
 
 ## CODE:
 ```
-Page-1
+Page 1
 
 index.html
 <!DOCTYPE html>
@@ -58,6 +58,8 @@ index.html
       <div class="text-wrapper-3">REGISTER</div>
       <img class="image-2" src="img/image-3.png" />
       <div class="text-wrapper-4">DREAM DESIGN COMPETE WIN</div>
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper-5">POPURI SAHITHYA(25004681)</div>
     </div>
   </body>
 </html>
@@ -87,6 +89,7 @@ style.css
 
 .android-medium {
   background-color: #ffffff;
+  overflow: hidden;
   width: 100%;
   min-width: 700px;
   min-height: 840px;
@@ -199,7 +202,29 @@ style.css
   line-height: normal;
 }
 
-Page-2
+.android-medium .rectangle-3 {
+  position: absolute;
+  top: 804px;
+  left: 1px;
+  width: 700px;
+  height: 36px;
+  background-color: #d9d9d9;
+}
+
+.android-medium .text-wrapper-5 {
+  position: absolute;
+  top: 810px;
+  left: 219px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+Page 2
 
 index.html
 
@@ -230,6 +255,8 @@ index.html
       <div class="text-wrapper-6">TEXT MINUS USING TOOLS</div>
       <div class="text-wrapper-7">DIGITAL DEFENDERS</div>
       <img class="image" src="img/image-1.png" />
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-8">POPURI SAHITHYA(25004681)</div>
     </div>
   </body>
 </html>
@@ -734,11 +761,11 @@ style.css
 ```
 
 ## OUTPUT:
-![alt text](image.png)
+![alt text](image-3.png)
 
-![alt text](image-1.png)
+![alt text](image-4.png)
 
-![alt text](image-2.png)
+![alt text](image-5.png)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
